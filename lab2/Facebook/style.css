@@ -1,0 +1,145 @@
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #f2f4f7;
+    
+}
+.main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    min-height: 80vh;
+   
+}
+.left-text{
+    display: flex;
+    max-width: 450px;
+    margin-right: 80px; 
+   /* border:10px solid black;*/
+    flex-direction: column;
+     position: relative;
+    top: -100px;  
+}
+.left-text h1 {
+    margin: 0; 
+}
+
+.left-text h2 {
+    margin: 0; 
+    padding-top: 5px; 
+}
+.rightpart{
+    width:400px;
+    
+}
+h1 {
+    color: #1877f2;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 52px;
+    
+}
+
+h2 {
+    font-family: Helvetica, Arial,  sans-serif;
+}
+ 
+.box{
+    background-color: white;
+    text-align:center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(180, 180, 180);
+    padding:20px;
+   
+}
+.box input {
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-size: 16px;
+    margin:10px auto;
+    margin-bottom:15px ;
+   
+}
+.box input:focus{
+    outline:none;
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+    border-color:blue;
+    
+}
+.box button {
+    width:100%;
+    background-color:#0866ff;
+    color: white;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.box button:hover{ 
+  background: #1877f2;
+  
+  
+}
+#sign-up{
+    font-size:17px ;
+    background-color: #42b72a;
+    width:60%;
+    margin-top: 15px; 
+    padding:10px;
+}
+#sign-up:hover{
+    background:  #36a420;
+}
+.box a{
+    color:#1877f2; ;
+    font-size: 15px;
+    padding:20px;
+    display:block;
+}
+
+#create-page{
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+    color:black;
+}
+#create-page a:visited {
+    color: black; 
+}
+.rightpart a{
+    text-decoration: none;
+}
+.rightpart a:hover {
+    text-decoration: underline;
+}
+
+
+ footer{
+    background-color: white;
+    color:#737373;
+    text-align: left;
+    padding: 20px 170px 5px 170px;
+    font-size: 15px;
+    flex-wrap: wrap;
+} 
+
+
+footer a:visited {
+    color: #737373; 
+}
+footer a{
+    text-decoration: none;
+    margin-right: 15px;
+    color:#737373;
+}
+footer a:hover {
+    text-decoration: underline;
+}
