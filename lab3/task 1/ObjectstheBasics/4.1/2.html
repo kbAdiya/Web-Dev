@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let schedule = {};
+        alert( isEmpty(schedule) );
+        schedule["8:30"] = "get up";
+        alert( isEmpty(schedule) );
+
+        function isEmpty(schedule) {
+            for (let i in schedule) {
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

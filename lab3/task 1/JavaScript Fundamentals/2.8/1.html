@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let a = 1, b = 1;
+
+        alert( ++a ); // 2, prefix form returns the new value
+        alert( b++ ); // 1, postfix form returns the old value
+
+        alert( a ); // 2, incremented once
+        alert( b ); // 2, incremented once
+        a = 2;
+
+        let x = 1 + (a *= 2)
+        alert(x);  
+
+        a = prompt("First number?", 1);
+        b = prompt("Second number?", 2);
+
+         alert(+a + +b);
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = prompt("What is your age?", 18);
+
+        let welcome = (age < 18) ?
+        () => alert('Hello!') :
+        () => alert("Greetings!");
+
+        welcome();
+        ///////
+        function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+        }
+
+        ask(
+        "Do you agree?",
+        function() { alert("You agreed."); },
+        function() { alert("You canceled the execution."); }
+        );
+        ///
+        let ask = (question, yes, no) => confirm(question) ? yes() : no();
+        ask(
+        'Do you agree?',
+        () => console.log('You agreed'),
+        () => console.log('You interrupted execution'),
+        );
+                
+    </script>
+</body>
+</html>

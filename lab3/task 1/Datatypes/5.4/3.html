@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function sumInput() {
+            let numbers = [];
+            let sum = 0;
+
+            while (true) {
+                let val = prompt("Enter a number:", 0);
+                
+                
+                if (val === "" || val === null || !isFinite(val)) {
+                    break;
+                }
+
+                numbers.push(+val);
+                sum += +val;     
+            }
+
+            alert("Numbers entered: " + numbers);
+            alert("Total sum: " + sum);
+        }
+
+        sumInput();
+
+    </script>
+</body>
+</html>

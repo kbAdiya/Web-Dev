@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    background-color: black;
+     /* border:1px solid red;  */
+     height:50px;
+    
+}
+.header h2{
+    margin:0;
+    padding-top: 10px;
+    padding-left: 50px;
+   
+    color:lightgray;
+}
+.container{
+    /* background-color: gainsboro; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+     /* border:1px solid red;   */
+}
+.todobox{
+    /* border:3px solid red; */
+    width:700px;
+    margin:100px auto 10px;
+}
+.add{
+    /* border:2px solid black; */
+    display:flex;
+    align-items: center;
+    gap:30px;
+
+}
+input{
+    width:80%;
+    margin-left: 20px;
+    padding: 10px;
+}
+button{
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+   
+    padding: 20px;
+    border: 1px solid grey;
+}
+.main-text{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+li.done span {
+    text-decoration: line-through;
+}
+
+.delete-button {
+    border: none;
+    background: none;
+     padding:0;
+    cursor: pointer;
+    width: 30px; 
+    height: 30px; 
+}
+.delete-button img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+}
+
