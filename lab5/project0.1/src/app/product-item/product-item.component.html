@@ -1,0 +1,30 @@
+<p>product-item works!</p>
+<div class="products-container">
+    <div class="product-image">
+      <img [src]="product.image" alt="{{ product.name }}">
+    </div>
+    <div class="product-info">
+      <h2>{{ product.name }}</h2>
+      <p>{{ product.description }}</p>
+      <p class="rating">✨ {{ product.rating }}</p>
+      <a [href]="product.link" target="_blank" class="view-btn">View on Kaspi</a>
+      <p id="likes">Likes: {{ product.likes }}</p>
+
+      <div class="share-buttons">
+        <button (click)="shareProduct('whatsapp')" class="whatsapp-btn">Share on WhatsApp</button>
+        <button (click)="shareProduct('telegram')" class="telegram-btn">Share on Telegram</button>
+
+      </div>
+      <div class="likeremove">
+        <button (click)="likeProduct()">Like ❤️</button>
+         <button (click)="removeProduct()">Remove ❌</button>
+       </div>
+
+    </div>
+</div>
+
+
+
+
+
+
