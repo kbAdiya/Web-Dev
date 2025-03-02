@@ -1,0 +1,8 @@
+<p>Albums works!</p>
+<h2>Albums:</h2>
+<div class="results">
+<div *ngFor="let album of albums" class="album-card">
+    <h4 (click)="getAlbumById(album.id)">{{ album.title }}</h4>
+    <button (click)="deleteAlbum(album.id)"><img src="https://cdn-icons-png.flaticon.com/512/484/484662.png" alt="Delete"width=20px></button>
+  </div>
+</div>

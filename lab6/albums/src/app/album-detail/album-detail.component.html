@@ -1,0 +1,19 @@
+<p>album-detail works!</p>
+
+<div class="mainn">
+    <div *ngIf="album" class="album-detail">
+        <h2> Details</h2>
+        <p><strong>title:</strong> {{ album.title }}</p>
+        <p><strong>userID:</strong> {{ album.userId }}</p>
+        <p><strong>ID:</strong> {{ album.id }}</p>
+        <button id="photos" (click)="goToPhotos()">Photos</button>
+        <br>
+      
+        <h4>Edit Album Title:</h4>
+        <input [(ngModel)]="updatedTitle" placeholder="New title">
+        <button id="save" (click)="saveChanges()">Save</button>
+        <br>
+          <button class="return" (click)="goBack()">go_back</button>
+          
+    </div>
+</div>

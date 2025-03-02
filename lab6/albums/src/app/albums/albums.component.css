@@ -1,0 +1,41 @@
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    color: red;
+  }
+  
+  .album-card {
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    background-color:bisque;
+    border-radius: 5px;
+    box-shadow: 5px 0px 5px 3px rgba(128, 128, 128, 0.441);
+    width: 230px;
+    max-height: 150px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .album-card:hover {
+    border-radius: 5px;
+    transform: scale(1.05) perspective(0.5px)
+  }
+  
+  button {
+    border: none;
+    background-color: bisque;
+    margin: 5px;
+    width: 25px;
+  }

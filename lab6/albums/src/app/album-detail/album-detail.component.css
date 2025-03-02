@@ -1,0 +1,66 @@
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: brown;
+}
+
+.mainn {
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.album-detail {
+    margin-top:30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    background-color:bisque;
+    padding: 20px;
+    min-width: 540px;
+    max-width: 1000px;
+    border:1px solid red;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#photos {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color:aliceblue;
+    float: center;
+    margin-right: 20px;
+    width:100px;
+}
+
+
+input {
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-right: 10px; 
+    padding: 5px;
+    width: 80%;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    margin-top: 5px;
+}
+
+#save {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: lightblue;
+    margin-right: 20px;
+    width: 12%;
+}
+
+.return {
+    border: none;
+    background-color: lightblue ;
+}
